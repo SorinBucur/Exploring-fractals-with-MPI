@@ -1,0 +1,6 @@
+Am implementat un program ce calculeaza multimile Mandelbrot si Julia pentru o functie polinomiala complexa 
+de forma f(z) = z^2 + c si le afiseaza sub forma de imagini grayscale.
+
+Pentru a implementa paralel cei doi algortimi am impartit imaginea in mai multi fractali dupa care
+am trimis fiecarui proces cate o parte pentru a aplica algortimul. Acesta trimite inapoi imaginea procesata
+procesului master care afiseaza imaginea.
